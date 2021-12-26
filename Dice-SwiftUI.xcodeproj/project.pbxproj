@@ -13,7 +13,7 @@
 		965E7EF226823FEC003CB6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965E7EF126823FEC003CB6FC /* Assets.xcassets */; };
 		965E7EF526823FEC003CB6FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965E7EF426823FEC003CB6FC /* Preview Assets.xcassets */; };
 		965E7EF826823FEC003CB6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965E7EF626823FEC003CB6FC /* LaunchScreen.storyboard */; };
-		96DF7F672762ECD100E47325 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DF7F662762ECD100E47325 /* SwiftUIView.swift */; };
+		966101962778F75700573971 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966101952778F75700573971 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		965E7EF426823FEC003CB6FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		965E7EF726823FEC003CB6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965E7EF926823FEC003CB6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DF7F662762ECD100E47325 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		966101952778F75700573971 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				965E7EF626823FEC003CB6FC /* LaunchScreen.storyboard */,
 				965E7EF926823FEC003CB6FC /* Info.plist */,
 				965E7EF326823FEC003CB6FC /* Preview Content */,
-				96DF7F662762ECD100E47325 /* SwiftUIView.swift */,
+				966101952778F75700573971 /* DiceView.swift */,
 			);
 			path = "Dice-SwiftUI";
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				965E7EEC26823FE8003CB6FC /* AppDelegate.swift in Sources */,
+				966101962778F75700573971 /* DiceView.swift in Sources */,
 				965E7EEE26823FE8003CB6FC /* SceneDelegate.swift in Sources */,
-				96DF7F672762ECD100E47325 /* SwiftUIView.swift in Sources */,
 				965E7EF026823FE8003CB6FC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

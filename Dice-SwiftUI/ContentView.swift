@@ -41,12 +41,7 @@ struct ContentView: View {
        }
     }
 }
-struct DiceView: View {
-    let diceNumber :Int
-    var body: some View {
-        Image("dice\(diceNumber)").resizable().aspectRatio(1, contentMode: .fit).padding()
-    }
-}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
